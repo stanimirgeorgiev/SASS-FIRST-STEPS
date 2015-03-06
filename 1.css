@@ -1,0 +1,21 @@
+.message, .warning {
+  border-color: #fff; }
+
+.warning {
+  color: red; }
+
+nav ul {
+  margin: 0px;
+  padding: 0px; }
+  nav ul li {
+    border: 1px solid #000;
+    background-color: yellow;
+    margin: 2px;
+    display: inline-block; }
+    nav ul li:hover {
+      text-decoration: none;
+      background-color: green;
+      color: green;
+      border-color: green; }
+
+/*# sourceMappingURL=1.css.map */

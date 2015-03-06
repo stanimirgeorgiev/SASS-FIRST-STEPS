@@ -1,0 +1,28 @@
+$main-color: green;
+.message {
+	border-color: #fff;
+}
+.warning {
+	@extend .message;
+	color: red;
+}
+nav {
+	ul {
+		margin: 0px;
+		padding: 0px;
+
+		li {
+			border: 1px solid #000;
+			background-color: yellow;
+			margin: 2px;
+			display: inline-block;
+
+			&:hover {
+				text-decoration: none;
+				background-color: $main-color;
+				color: $main-color;
+				border-color: $main-color;
+			}
+		}
+	}
+}
